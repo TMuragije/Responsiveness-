@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    margin: 10px;
+    font-family: Josefin Sans;
+    font-size: larger;
+}
+
+/* Responsiviness for the text section
+
+@media(max-width: 700px){
+    
+ body{
+
+  display: block;
+  background-color: rgba(119, 0, 255, 0.295);
+  width: 100%;
+
+   }
+} */
+
+
+/* @media only screen and (max-width: 1440px ) {
+    .container{
+        display: block;
+        width: 100%;
+        padding: 30px;
+};
+}; */
+
+/* Responsiviness for the picture section*/
+
+/* @media only screen and (min-width: 800px) {
+
+    .profile{
+   display: block;
+   width:100%;
+   padding:30px;
+
+    } ; 
+
+}; */
+
+
+/* @media only screen and (max-width: 1440px ) {
+    .profile{
+        display: block;
+        width: 100%;
+        padding:30px;
+    };
+}; */
+
+
+
+.appearence {
+
+    display: flex;
+    flex: content;
+    padding: 20px;
+    background-color: wheat;
+}
+
+
+
+.container {
+    text-emphasis: left;
+    padding: 100px;
+}
+
+.sentence {
+    font-size: larger;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+#email {
+    padding: 10px;
+    width: 100%;
+    border-radius: 100px;
+    color: hsl(0, 36%, 70%);
+    border: 1px solid hsl(0, 36%, 70%);
+}
+
+
+.paragraph {
+    color: hsl(0, 36%, 70%);
+}
+
+
+
+
+
+.buttonn {
+    display: flex;
+    flex: content;
+    margin-top: 90px;
+    width: 40%;
+    /* border-radius: 100%; */
+    position: relative;
+}
+
+.arrow {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(0, 93%, 68%);
+    border-radius: 100px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+
+
+/* .profile {
+    text-emphasis: left;
+    padding: 100px;
+} */
+
+
+
+/* Responsiviness for the text section*/
+
+@media(max-width: 900px) {
+
+    .appearence{
+
+        display: block;
+        background-color:silver;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        row-gap: 10px;
+        /* column : row */
+        padding: 10px;
+        color: green;
+
+    }
+
+    #email {
+        padding: 10px;
+        width: 100%;
+        border-radius: 100px;
+        color: hsl(0, 36%, 70%);
+        border: 1px solid hsl(0, 36%, 70%);
+    }
+    .buttonn {
+        display: flex;
+        flex: content;
+        margin-top: 90px;
+        width: 70%;
+        /* border-radius: 100%; */
+        position: relative;
+    }
+
+ .logo{
+    display: flex;
+    flex-wrap: wrap-reverse;
+ }
+}
